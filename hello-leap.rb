@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 
 require 'leap-motion'
-require "coreaudio"
-require 'pry'
+require 'coreaudio'
 
 class Sound
   def initialize
@@ -35,13 +34,13 @@ class MyListener < Leap::Motion::Listener
   end
 
   def on_frame x
-    @count ||= 1
-    if @count % 5 == 0
-      @count = 1
-    else
-      @count += 1
-      return
-    end
+    # @count ||= 1
+    # if @count % 5 == 0
+    #   @count = 1
+    # else
+    #   @count += 1
+    #   return
+    # end
 
     return unless x.frame.pointables.count == 2
 
