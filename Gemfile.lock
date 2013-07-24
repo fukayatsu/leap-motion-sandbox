@@ -7,9 +7,13 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    coreaudio (0.0.9)
+      narray (~> 0.6.0.0)
+    narray (0.6.0.8)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  coreaudio
   leap-motion!
