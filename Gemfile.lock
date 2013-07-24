@@ -1,0 +1,15 @@
+GIT
+  remote: git://github.com/glejeune/ruby-leap-motion.git
+  revision: b3af050a8feab73909ff5e05c8a117774d85f4da
+  specs:
+    leap-motion (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  leap-motion!
