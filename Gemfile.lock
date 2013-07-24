@@ -7,9 +7,16 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
+    coderay (1.0.9)
     coreaudio (0.0.9)
       narray (~> 0.6.0.0)
+    method_source (0.8.1)
     narray (0.6.0.8)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    slop (3.4.5)
 
 PLATFORMS
   ruby
@@ -17,3 +24,4 @@ PLATFORMS
 DEPENDENCIES
   coreaudio
   leap-motion!
+  pry
